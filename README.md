@@ -3,6 +3,6 @@
 01-data-binding
 
 - string interpolation
-- data binding
+- property binding
 - event binding
 - two way binding
