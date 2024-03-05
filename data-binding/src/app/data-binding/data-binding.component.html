@@ -1,0 +1,13 @@
+<p>data-binding works!</p>
+<label for="name"></label>
+<input type="text" id="name" [(ngModel)]="name" />
+<button
+  type="button"
+  class="btn btn-primary"
+  (click)="clearInput()"
+  [disabled]="name === ''"
+>
+  send
+</button>
+
+<div>{{ name }}</div>
